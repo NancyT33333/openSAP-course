@@ -1,0 +1,942 @@
+[{
+	"Address": {
+		"__metadata": {
+			"type": "/IWBEP/GWSAMPLE_BASIC.CT_Address"
+		},
+		"City": "Berlin",
+		"PostalCode": "13467",
+		"Street": "Calvinstraße",
+		"Building": "36",
+		"Country": "DE",
+		"AddressType": "02"
+	},
+	"BusinessPartnerID": "0100000001",
+	"CompanyName": "Becker Berlin",
+	"WebAddress": "http://www.beckerberlin.de",
+	"EmailAddress": "dagmar.schulze@beckerberlin.de",
+	"PhoneNumber": "3088530",
+	"FaxNumber": "3088004",
+	"LegalForm": "GmbH",
+	"CurrencyCode": "EUR",
+	"BusinessPartnerRole": "02",
+	"CreatedAt": "/Date(1458513044000)/",
+	"ChangedAt": "/Date(1458513044000)/"
+}, {
+	"Address": {
+		"__metadata": {
+			"type": "/IWBEP/GWSAMPLE_BASIC.CT_Address"
+		},
+		"City": "Wilmington, Delaware",
+		"PostalCode": "19899",
+		"Street": "1 2345 King Street",
+		"Building": "1",
+		"Country": "US",
+		"AddressType": "02"
+	},
+	"BusinessPartnerID": "0100000002",
+	"CompanyName": "DelBont Industries",
+	"WebAddress": "http://www.delbont.com",
+	"EmailAddress": "maria.brown@delbont.com",
+	"PhoneNumber": "3023352668",
+	"FaxNumber": "3023352004",
+	"LegalForm": "Ltd.",
+	"CurrencyCode": "USD",
+	"BusinessPartnerRole": "01",
+	"CreatedAt": "/Date(1458513044000)/",
+	"ChangedAt": "/Date(1458513044000)/"
+}, {
+	"Address": {
+		"__metadata": {
+			"type": "/IWBEP/GWSAMPLE_BASIC.CT_Address"
+		},
+		"City": "Hannover",
+		"PostalCode": "30625",
+		"Street": "An der Breiten Wiese",
+		"Building": "422",
+		"Country": "DE",
+		"AddressType": "02"
+	},
+	"BusinessPartnerID": "0100000003",
+	"CompanyName": "Talpa",
+	"WebAddress": "http://www.talpa-hannover.de",
+	"EmailAddress": "saskia.sommer@talpa-hannover.de",
+	"PhoneNumber": "511403266",
+	"FaxNumber": "511403004",
+	"LegalForm": "GmbH",
+	"CurrencyCode": "EUR",
+	"BusinessPartnerRole": "01",
+	"CreatedAt": "/Date(1458513044000)/",
+	"ChangedAt": "/Date(1458513044000)/"
+}, {
+	"Address": {
+		"__metadata": {
+			"type": "/IWBEP/GWSAMPLE_BASIC.CT_Address"
+		},
+		"City": "Hollywood, California",
+		"PostalCode": "91602",
+		"Street": "Morning Drive",
+		"Building": "178",
+		"Country": "US",
+		"AddressType": "02"
+	},
+	"BusinessPartnerID": "0100000004",
+	"CompanyName": "Panorama Studios",
+	"WebAddress": "http://www.panorama-studios.biz",
+	"EmailAddress": "bob.buyer@panorama-studios.biz",
+	"PhoneNumber": "2244668800",
+	"FaxNumber": "2244668004",
+	"LegalForm": "Inc.",
+	"CurrencyCode": "USD",
+	"BusinessPartnerRole": "01",
+	"CreatedAt": "/Date(1458513044000)/",
+	"ChangedAt": "/Date(1458513044000)/"
+}, {
+	"Address": {
+		"__metadata": {
+			"type": "/IWBEP/GWSAMPLE_BASIC.CT_Address"
+		},
+		"City": "Münster",
+		"PostalCode": "48155",
+		"Street": "Albersloher Weg",
+		"Building": "24",
+		"Country": "DE",
+		"AddressType": "02"
+	},
+	"BusinessPartnerID": "0100000005",
+	"CompanyName": "TECUM",
+	"WebAddress": "http://www.tecum-ag.de",
+	"EmailAddress": "bart.koenig@tecum-ag.de",
+	"PhoneNumber": "2511415",
+	"FaxNumber": "2511004",
+	"LegalForm": "AG",
+	"CurrencyCode": "EUR",
+	"BusinessPartnerRole": "01",
+	"CreatedAt": "/Date(1458513044000)/",
+	"ChangedAt": "/Date(1458513044000)/"
+}, {
+	"Address": {
+		"__metadata": {
+			"type": "/IWBEP/GWSAMPLE_BASIC.CT_Address"
+		},
+		"City": "Tokyo",
+		"PostalCode": "100-0004",
+		"Street": "1-7-2 Otemachi",
+		"Building": "1",
+		"Country": "JP",
+		"AddressType": "02"
+	},
+	"BusinessPartnerID": "0100000006",
+	"CompanyName": "Asia High tech",
+	"WebAddress": "http://www.asia-ht.com",
+	"EmailAddress": "yoko.nakamura@asia-ht.com",
+	"PhoneNumber": "9078563412",
+	"FaxNumber": "9078563004",
+	"LegalForm": "Inc.",
+	"CurrencyCode": "JPY",
+	"BusinessPartnerRole": "01",
+	"CreatedAt": "/Date(1458513044000)/",
+	"ChangedAt": "/Date(1458513044000)/"
+}, {
+	"Address": {
+		"__metadata": {
+			"type": "/IWBEP/GWSAMPLE_BASIC.CT_Address"
+		},
+		"City": "Paris",
+		"PostalCode": "75015",
+		"Street": "Rue de la Republique 863",
+		"Building": "1",
+		"Country": "FR",
+		"AddressType": "02"
+	},
+	"BusinessPartnerID": "0100000007",
+	"CompanyName": "Laurent",
+	"WebAddress": "http://www.laurent-paris.com",
+	"EmailAddress": "sophie.ribery@laurent-paris.com",
+	"PhoneNumber": "149744423",
+	"FaxNumber": "149744004",
+	"LegalForm": "S.A.",
+	"CurrencyCode": "EUR",
+	"BusinessPartnerRole": "01",
+	"CreatedAt": "/Date(1458513044000)/",
+	"ChangedAt": "/Date(1458513044000)/"
+}, {
+	"Address": {
+		"City": "City 1",
+		"PostalCode": "PostalCode 1",
+		"Street": "Street 1",
+		"Building": "Building 1",
+		"Country": "Country 1",
+		"AddressType": "AddressType 1"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 1",
+	"CompanyName": "CompanyName 1",
+	"WebAddress": "WebAddress 1",
+	"EmailAddress": "EmailAddress 1",
+	"PhoneNumber": "PhoneNumber 1",
+	"FaxNumber": "FaxNumber 1",
+	"LegalForm": "LegalForm 1",
+	"CurrencyCode": "CurrencyCode 1",
+	"BusinessPartnerRole": "BusinessPartnerRole 1",
+	"CreatedAt": "/Date(967810150000)/",
+	"ChangedAt": "/Date(1114258150000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%201')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%201')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%201')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%201')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 2",
+		"PostalCode": "PostalCode 2",
+		"Street": "Street 2",
+		"Building": "Building 2",
+		"Country": "Country 2",
+		"AddressType": "AddressType 2"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 2",
+	"CompanyName": "CompanyName 2",
+	"WebAddress": "WebAddress 2",
+	"EmailAddress": "EmailAddress 2",
+	"PhoneNumber": "PhoneNumber 2",
+	"FaxNumber": "FaxNumber 2",
+	"LegalForm": "LegalForm 2",
+	"CurrencyCode": "CurrencyCode 2",
+	"BusinessPartnerRole": "BusinessPartnerRole 2",
+	"CreatedAt": "/Date(1264165750000)/",
+	"ChangedAt": "/Date(1509196150000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%202')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%202')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%202')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%202')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 3",
+		"PostalCode": "PostalCode 3",
+		"Street": "Street 3",
+		"Building": "Building 3",
+		"Country": "Country 3",
+		"AddressType": "AddressType 3"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 3",
+	"CompanyName": "CompanyName 3",
+	"WebAddress": "WebAddress 3",
+	"EmailAddress": "EmailAddress 3",
+	"PhoneNumber": "PhoneNumber 3",
+	"FaxNumber": "FaxNumber 3",
+	"LegalForm": "LegalForm 3",
+	"CurrencyCode": "CurrencyCode 3",
+	"BusinessPartnerRole": "BusinessPartnerRole 3",
+	"CreatedAt": "/Date(1149163750000)/",
+	"ChangedAt": "/Date(1224677350000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%203')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%203')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%203')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%203')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 4",
+		"PostalCode": "PostalCode 4",
+		"Street": "Street 4",
+		"Building": "Building 4",
+		"Country": "Country 4",
+		"AddressType": "AddressType 4"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 4",
+	"CompanyName": "CompanyName 4",
+	"WebAddress": "WebAddress 4",
+	"EmailAddress": "EmailAddress 4",
+	"PhoneNumber": "PhoneNumber 4",
+	"FaxNumber": "FaxNumber 4",
+	"LegalForm": "LegalForm 4",
+	"CurrencyCode": "CurrencyCode 4",
+	"BusinessPartnerRole": "BusinessPartnerRole 4",
+	"CreatedAt": "/Date(1190117350000)/",
+	"ChangedAt": "/Date(1157717350000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%204')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%204')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%204')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%204')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 5",
+		"PostalCode": "PostalCode 5",
+		"Street": "Street 5",
+		"Building": "Building 5",
+		"Country": "Country 5",
+		"AddressType": "AddressType 5"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 5",
+	"CompanyName": "CompanyName 5",
+	"WebAddress": "WebAddress 5",
+	"EmailAddress": "EmailAddress 5",
+	"PhoneNumber": "PhoneNumber 5",
+	"FaxNumber": "FaxNumber 5",
+	"LegalForm": "LegalForm 5",
+	"CurrencyCode": "CurrencyCode 5",
+	"BusinessPartnerRole": "BusinessPartnerRole 5",
+	"CreatedAt": "/Date(1139231350000)/",
+	"ChangedAt": "/Date(1405339750000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%205')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%205')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%205')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%205')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 6",
+		"PostalCode": "PostalCode 6",
+		"Street": "Street 6",
+		"Building": "Building 6",
+		"Country": "Country 6",
+		"AddressType": "AddressType 6"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 6",
+	"CompanyName": "CompanyName 6",
+	"WebAddress": "WebAddress 6",
+	"EmailAddress": "EmailAddress 6",
+	"PhoneNumber": "PhoneNumber 6",
+	"FaxNumber": "FaxNumber 6",
+	"LegalForm": "LegalForm 6",
+	"CurrencyCode": "CurrencyCode 6",
+	"BusinessPartnerRole": "BusinessPartnerRole 6",
+	"CreatedAt": "/Date(1301400550000)/",
+	"ChangedAt": "/Date(1516108150000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%206')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%206')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%206')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%206')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 7",
+		"PostalCode": "PostalCode 7",
+		"Street": "Street 7",
+		"Building": "Building 7",
+		"Country": "Country 7",
+		"AddressType": "AddressType 7"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 7",
+	"CompanyName": "CompanyName 7",
+	"WebAddress": "WebAddress 7",
+	"EmailAddress": "EmailAddress 7",
+	"PhoneNumber": "PhoneNumber 7",
+	"FaxNumber": "FaxNumber 7",
+	"LegalForm": "LegalForm 7",
+	"CurrencyCode": "CurrencyCode 7",
+	"BusinessPartnerRole": "BusinessPartnerRole 7",
+	"CreatedAt": "/Date(1274184550000)/",
+	"ChangedAt": "/Date(990274150000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%207')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%207')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%207')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%207')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 8",
+		"PostalCode": "PostalCode 8",
+		"Street": "Street 8",
+		"Building": "Building 8",
+		"Country": "Country 8",
+		"AddressType": "AddressType 8"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 8",
+	"CompanyName": "CompanyName 8",
+	"WebAddress": "WebAddress 8",
+	"EmailAddress": "EmailAddress 8",
+	"PhoneNumber": "PhoneNumber 8",
+	"FaxNumber": "FaxNumber 8",
+	"LegalForm": "LegalForm 8",
+	"CurrencyCode": "CurrencyCode 8",
+	"BusinessPartnerRole": "BusinessPartnerRole 8",
+	"CreatedAt": "/Date(1532351350000)/",
+	"ChangedAt": "/Date(1210162150000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%208')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%208')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%208')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%208')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 9",
+		"PostalCode": "PostalCode 9",
+		"Street": "Street 9",
+		"Building": "Building 9",
+		"Country": "Country 9",
+		"AddressType": "AddressType 9"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 9",
+	"CompanyName": "CompanyName 9",
+	"WebAddress": "WebAddress 9",
+	"EmailAddress": "EmailAddress 9",
+	"PhoneNumber": "PhoneNumber 9",
+	"FaxNumber": "FaxNumber 9",
+	"LegalForm": "LegalForm 9",
+	"CurrencyCode": "CurrencyCode 9",
+	"BusinessPartnerRole": "BusinessPartnerRole 9",
+	"CreatedAt": "/Date(1539954550000)/",
+	"ChangedAt": "/Date(1555506550000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%209')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%209')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%209')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%209')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 10",
+		"PostalCode": "PostalCode 10",
+		"Street": "Street 10",
+		"Building": "Building 10",
+		"Country": "Country 10",
+		"AddressType": "AddressType 10"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 10",
+	"CompanyName": "CompanyName 10",
+	"WebAddress": "WebAddress 10",
+	"EmailAddress": "EmailAddress 10",
+	"PhoneNumber": "PhoneNumber 10",
+	"FaxNumber": "FaxNumber 10",
+	"LegalForm": "LegalForm 10",
+	"CurrencyCode": "CurrencyCode 10",
+	"BusinessPartnerRole": "BusinessPartnerRole 10",
+	"CreatedAt": "/Date(1039439350000)/",
+	"ChangedAt": "/Date(1239365350000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2010')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2010')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2010')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2010')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 11",
+		"PostalCode": "PostalCode 11",
+		"Street": "Street 11",
+		"Building": "Building 11",
+		"Country": "Country 11",
+		"AddressType": "AddressType 11"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 11",
+	"CompanyName": "CompanyName 11",
+	"WebAddress": "WebAddress 11",
+	"EmailAddress": "EmailAddress 11",
+	"PhoneNumber": "PhoneNumber 11",
+	"FaxNumber": "FaxNumber 11",
+	"LegalForm": "LegalForm 11",
+	"CurrencyCode": "CurrencyCode 11",
+	"BusinessPartnerRole": "BusinessPartnerRole 11",
+	"CreatedAt": "/Date(1268399355000)/",
+	"ChangedAt": "/Date(1490620155000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2011')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2011')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2011')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2011')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 12",
+		"PostalCode": "PostalCode 12",
+		"Street": "Street 12",
+		"Building": "Building 12",
+		"Country": "Country 12",
+		"AddressType": "AddressType 12"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 12",
+	"CompanyName": "CompanyName 12",
+	"WebAddress": "WebAddress 12",
+	"EmailAddress": "EmailAddress 12",
+	"PhoneNumber": "PhoneNumber 12",
+	"FaxNumber": "FaxNumber 12",
+	"LegalForm": "LegalForm 12",
+	"CurrencyCode": "CurrencyCode 12",
+	"BusinessPartnerRole": "BusinessPartnerRole 12",
+	"CreatedAt": "/Date(1133442555000)/",
+	"ChangedAt": "/Date(1184328555000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2012')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2012')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2012')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2012')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 13",
+		"PostalCode": "PostalCode 13",
+		"Street": "Street 13",
+		"Building": "Building 13",
+		"Country": "Country 13",
+		"AddressType": "AddressType 13"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 13",
+	"CompanyName": "CompanyName 13",
+	"WebAddress": "WebAddress 13",
+	"EmailAddress": "EmailAddress 13",
+	"PhoneNumber": "PhoneNumber 13",
+	"FaxNumber": "FaxNumber 13",
+	"LegalForm": "LegalForm 13",
+	"CurrencyCode": "CurrencyCode 13",
+	"BusinessPartnerRole": "BusinessPartnerRole 13",
+	"CreatedAt": "/Date(978354555000)/",
+	"ChangedAt": "/Date(1011704955000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2013')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2013')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2013')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2013')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 14",
+		"PostalCode": "PostalCode 14",
+		"Street": "Street 14",
+		"Building": "Building 14",
+		"Country": "Country 14",
+		"AddressType": "AddressType 14"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 14",
+	"CompanyName": "CompanyName 14",
+	"WebAddress": "WebAddress 14",
+	"EmailAddress": "EmailAddress 14",
+	"PhoneNumber": "PhoneNumber 14",
+	"FaxNumber": "FaxNumber 14",
+	"LegalForm": "LegalForm 14",
+	"CurrencyCode": "CurrencyCode 14",
+	"BusinessPartnerRole": "BusinessPartnerRole 14",
+	"CreatedAt": "/Date(1538399355000)/",
+	"ChangedAt": "/Date(1070543355000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2014')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2014')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2014')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2014')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 15",
+		"PostalCode": "PostalCode 15",
+		"Street": "Street 15",
+		"Building": "Building 15",
+		"Country": "Country 15",
+		"AddressType": "AddressType 15"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 15",
+	"CompanyName": "CompanyName 15",
+	"WebAddress": "WebAddress 15",
+	"EmailAddress": "EmailAddress 15",
+	"PhoneNumber": "PhoneNumber 15",
+	"FaxNumber": "FaxNumber 15",
+	"LegalForm": "LegalForm 15",
+	"CurrencyCode": "CurrencyCode 15",
+	"BusinessPartnerRole": "BusinessPartnerRole 15",
+	"CreatedAt": "/Date(1136120955000)/",
+	"ChangedAt": "/Date(1090757355000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2015')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2015')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2015')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2015')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 16",
+		"PostalCode": "PostalCode 16",
+		"Street": "Street 16",
+		"Building": "Building 16",
+		"Country": "Country 16",
+		"AddressType": "AddressType 16"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 16",
+	"CompanyName": "CompanyName 16",
+	"WebAddress": "WebAddress 16",
+	"EmailAddress": "EmailAddress 16",
+	"PhoneNumber": "PhoneNumber 16",
+	"FaxNumber": "FaxNumber 16",
+	"LegalForm": "LegalForm 16",
+	"CurrencyCode": "CurrencyCode 16",
+	"BusinessPartnerRole": "BusinessPartnerRole 16",
+	"CreatedAt": "/Date(1434373755000)/",
+	"ChangedAt": "/Date(1414588155000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2016')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2016')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2016')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2016')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 17",
+		"PostalCode": "PostalCode 17",
+		"Street": "Street 17",
+		"Building": "Building 17",
+		"Country": "Country 17",
+		"AddressType": "AddressType 17"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 17",
+	"CompanyName": "CompanyName 17",
+	"WebAddress": "WebAddress 17",
+	"EmailAddress": "EmailAddress 17",
+	"PhoneNumber": "PhoneNumber 17",
+	"FaxNumber": "FaxNumber 17",
+	"LegalForm": "LegalForm 17",
+	"CurrencyCode": "CurrencyCode 17",
+	"BusinessPartnerRole": "BusinessPartnerRole 17",
+	"CreatedAt": "/Date(1555765755000)/",
+	"ChangedAt": "/Date(1182168555000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2017')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2017')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2017')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2017')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 18",
+		"PostalCode": "PostalCode 18",
+		"Street": "Street 18",
+		"Building": "Building 18",
+		"Country": "Country 18",
+		"AddressType": "AddressType 18"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 18",
+	"CompanyName": "CompanyName 18",
+	"WebAddress": "WebAddress 18",
+	"EmailAddress": "EmailAddress 18",
+	"PhoneNumber": "PhoneNumber 18",
+	"FaxNumber": "FaxNumber 18",
+	"LegalForm": "LegalForm 18",
+	"CurrencyCode": "CurrencyCode 18",
+	"BusinessPartnerRole": "BusinessPartnerRole 18",
+	"CreatedAt": "/Date(1290431355000)/",
+	"ChangedAt": "/Date(1121947755000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2018')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2018')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2018')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2018')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 19",
+		"PostalCode": "PostalCode 19",
+		"Street": "Street 19",
+		"Building": "Building 19",
+		"Country": "Country 19",
+		"AddressType": "AddressType 19"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 19",
+	"CompanyName": "CompanyName 19",
+	"WebAddress": "WebAddress 19",
+	"EmailAddress": "EmailAddress 19",
+	"PhoneNumber": "PhoneNumber 19",
+	"FaxNumber": "FaxNumber 19",
+	"LegalForm": "LegalForm 19",
+	"CurrencyCode": "CurrencyCode 19",
+	"BusinessPartnerRole": "BusinessPartnerRole 19",
+	"CreatedAt": "/Date(1211458155000)/",
+	"ChangedAt": "/Date(1147522155000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2019')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2019')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2019')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2019')/ToProducts"
+		}
+	}
+}, {
+	"Address": {
+		"City": "City 20",
+		"PostalCode": "PostalCode 20",
+		"Street": "Street 20",
+		"Building": "Building 20",
+		"Country": "Country 20",
+		"AddressType": "AddressType 20"
+	},
+	"BusinessPartnerID": "BusinessPartnerID 20",
+	"CompanyName": "CompanyName 20",
+	"WebAddress": "WebAddress 20",
+	"EmailAddress": "EmailAddress 20",
+	"PhoneNumber": "PhoneNumber 20",
+	"FaxNumber": "FaxNumber 20",
+	"LegalForm": "LegalForm 20",
+	"CurrencyCode": "CurrencyCode 20",
+	"BusinessPartnerRole": "BusinessPartnerRole 20",
+	"CreatedAt": "/Date(1070284155000)/",
+	"ChangedAt": "/Date(1464959355000)/",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BusinessPartnerID%2020')",
+		"type": "GWSAMPLE_BASIC.BusinessPartner"
+	},
+	"ToSalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2020')/ToSalesOrders"
+		}
+	},
+	"ToContacts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2020')/ToContacts"
+		}
+	},
+	"ToProducts": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BusinessPartnerID%2020')/ToProducts"
+		}
+	}
+}]
