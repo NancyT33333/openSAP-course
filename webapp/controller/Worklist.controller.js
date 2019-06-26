@@ -3,8 +3,9 @@ sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"../model/formatter",
 	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator"
-], function (BaseController, JSONModel, formatter, Filter, FilterOperator) {
+	"sap/ui/model/FilterOperator",
+	'sap/ui/Device'
+], function (BaseController, JSONModel, formatter, Filter, FilterOperator, Device) {
 	"use strict";
 
 	return BaseController.extend("opensap.manageproducts.ManageProducts.controller.Worklist", {
@@ -28,7 +29,8 @@ sap.ui.define([
 			var oViewModel,
 				iOriginalBusyDelay,
 				oTable = this.byId("table");
-
+			// apply compact density if touch is not supported, the standard cozy design otherwise
+			this.getView().addStyleClass(Device.support.touch ? "sapUiSizeCozy" : "sapUiSizeCompact");
 			// Put down worklist table's original value for busy indicator delay,
 			// so it can be restored later on. Busy handling on the table is
 			// taken care of by the table itself.
@@ -50,7 +52,7 @@ sap.ui.define([
 
 			});
 			this.setModel(oViewModel, "worklistView");
-		
+
 			// Make sure, busy indication is showing immediately so there is no
 			// break after the busy indication for loading the view's meta data is
 			// ended (see promise 'oWhenMetadataIsLoaded' in AppController)
@@ -103,17 +105,16 @@ sap.ui.define([
 			if (iTotalItems && oTable.getBinding("items").isLengthFinal()) {
 				sTitle = this.getResourceBundle().getText("worklistTableTitleCount", [iTotalItems]);
 				// iterate the filters and request the count from the server
-					jQuery.each(this._mFilters, function (sFilterKey, oFilter) {
-						oModel.read("/ProductSet/$count", {
-							filters: oFilter,
-							success: function (oData) {
-								var sPath = "/" + sFilterKey;
-								oViewModel.setProperty(sPath, oData);
-							}
-						});
+				jQuery.each(this._mFilters, function (sFilterKey, oFilter) {
+					oModel.read("/ProductSet/$count", {
+						filters: oFilter,
+						success: function (oData) {
+							var sPath = "/" + sFilterKey;
+							oViewModel.setProperty(sPath, oData);
+						}
 					});
+				});
 
-				
 			} else {
 				sTitle = this.getResourceBundle().getText("worklistTableTitle");
 			}
@@ -168,10 +169,33 @@ sap.ui.define([
 			var oTable = this.byId("table");
 			oTable.getBinding("items").refresh();
 		},
+		/**
+		 * Event handler for press event on object identifier. 
+		 * opens detail popover to show product dimensions.
+		 * @public
+		 */
+		onShowDetailPopover: function (oEvent) {
+			var oPopover = this._getPopover();
+			var oSource = oEvent.getSource();
+			oPopover.bindElement(oSource.getBindingContext().getPath());
+			// open dialog
+			oPopover.openBy(oEvent.getParameter("domRef"));
+		},
 
 		/* =========================================================== */
 		/* internal methods                                            */
 		/* =========================================================== */
+
+		_getPopover: function () {
+			// create dialog lazily
+			if (!this._oPopover) {
+				// create popover via fragment factory
+				this._oPopover = sap.ui.xmlfragment(
+					"opensap.manageproducts.ManageProducts.view.ResponsivePopover", this);
+				this.getView().addDependent(this._oPopover);
+			}
+			return this._oPopover;
+		},
 
 		/**
 		 * Shows the selected item on the object page
