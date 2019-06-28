@@ -6,7 +6,7 @@
 			<ObjectHeader id="objectHeader" titleActive="true" titlePress="onShowDetailPopover" title="{ProductID}"
 				number="{ path: 'Price', formatter: '.formatter.numberUnit' }" responsive="true" numberUnit="{CurrencyCode}">
 				<attributes>
-					<ObjectAttribute text="{Name}"/>
+					<ObjectAttribute active="true" text="{Name}" press="onShowDescrPopover"/>
 				</attributes>
 			</ObjectHeader>
 			<mvc:XMLView viewName="opensap.manageproducts.ManageProducts.view.ProductDetails"/>

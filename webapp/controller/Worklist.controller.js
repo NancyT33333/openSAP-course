@@ -65,7 +65,17 @@ sap.ui.define([
 		/* =========================================================== */
 		/* event handlers                                              */
 		/* =========================================================== */
+		
+		/**
+		 * Event handler when the add button gets pressed
+		 * @public
+		 */
+		onAdd: function() {
+			this.getRouter().navTo("add");
+		},
 
+		
+		
 		/**
 		 * Event handler when a filter tab gets pressed
 		 * @param {sap.ui.base.Event} oEvent the filter tab event

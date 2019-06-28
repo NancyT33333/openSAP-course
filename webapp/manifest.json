@@ -103,7 +103,14 @@
 					"target": [
 						"object"
 					]
+				},
+				{
+					"pattern" : "AddProduct",
+					"name" : "add",
+					"target" : "add"
 				}
+			
+
 			],
 			"targets": {
 				"worklist": {
@@ -118,6 +125,14 @@
 					"viewLevel": 2,
 					"title": "{i18n>objectViewTitle}"
 				},
+				"add": {
+					"viewName": "Add",
+					"viewId": "add",
+					"viewLevel": 3
+				},
+				
+			
+
 				"objectNotFound": {
 					"viewName": "ObjectNotFound",
 					"viewId": "objectNotFound"

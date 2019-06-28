@@ -43,6 +43,15 @@ sap.ui.define([
 		/* event handlers                                              */
 		/* =========================================================== */
 
+
+		onShowDescrPopover: function(oEvent) {
+			var oDescrPopover = this._getDescrPopover();
+			var oSource = oEvent.getSource();
+			oDescrPopover.bindElement(oSource.getBindingContext().getPath());
+
+			// open dialog
+			oDescrPopover.openBy(oEvent.getParameter("domRef").lastChild);
+		},
 		/**
 		 * Event handler  for navigating back.
 		 * It there is a history entry we go one step back in the browser history
@@ -77,7 +86,18 @@ sap.ui.define([
 		/* =========================================================== */
 		/* internal methods                                            */
 		/* =========================================================== */
-
+		
+		
+		_getDescrPopover: function() {
+				if (!this._oDescrPopover) {
+				// create popover via fragment factory
+				this._oDescrPopover = sap.ui.xmlfragment(
+					"opensap.manageproducts.ManageProducts.view.DescriptionPopover", this);
+				this.getView().addDependent(this._oDescrPopover);
+			}
+			return this._oDescrPopover;
+		},
+		
 		_getPopover: function () {
 			// create dialog lazily
 			if (!this._oPopover) {
@@ -95,13 +115,13 @@ sap.ui.define([
 		 * @param {sap.ui.base.Event} oEvent pattern match event in route 'object'
 		 * @private
 		 */
-		_onObjectMatched: function (oEvent) {
-			var sObjectId = oEvent.getParameter("arguments").objectId;
+		_onObjectMatched: function (oEvent) {  //event = patternMatched
+			var sObjectId = oEvent.getParameter("arguments").objectId;   // 'AL_1'  arguments = hash key-value pairs
 			this.getModel().metadataLoaded().then(function () {
-				var sObjectPath = this.getModel().createKey("ProductSet", {
+				var sObjectPath = this.getModel().createKey("ProductSet", {   //"ProductSet('AL_1')"   //.createKey - создать моделечитаемый путь до объекта в ней
 					ProductID: sObjectId
-				});
-				this._bindView("/" + sObjectPath);
+				});        // ProductID - property in the model
+				this._bindView("/" + sObjectPath);   
 			}.bind(this));
 		},
 
