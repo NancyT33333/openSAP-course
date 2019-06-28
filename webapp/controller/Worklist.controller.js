@@ -71,7 +71,7 @@ sap.ui.define([
 		 * @public
 		 */
 		onAdd: function() {
-			this.getRouter().navTo("add");
+			this.getRouter().navTo("add");  //navTo меняет хеш
 		},
 
 		
