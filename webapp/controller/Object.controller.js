@@ -59,13 +59,15 @@ sap.ui.define([
 		 * @public
 		 */
 		onNavBack: function () {
-			var sPreviousHash = History.getInstance().getPreviousHash();
+			
+	//  If this part would work, onNavBack would always throw onto moreDetails page		
+	//		var sPreviousHash = History.getInstance().getPreviousHash();
 
-			if (sPreviousHash !== undefined) {
-				history.go(-1);
-			} else {
+	//		if (sPreviousHash !== undefined) {
+	//			history.go(-1);
+	//		} else {
 				this.getRouter().navTo("worklist", {}, true);
-			}
+	//		}
 		},
 
 		/**
@@ -131,15 +133,15 @@ sap.ui.define([
 		 * @param {string} sObjectPath path to the object to be bound
 		 * @private
 		 */
-		_bindView: function (sObjectPath) {
+		_bindView: function (sObjectPath) { //путь до объекта в модели
 			var oViewModel = this.getModel("objectView"),
 				oDataModel = this.getModel();
 
 			this.getView().bindElement({
-				path: sObjectPath,
+				path: sObjectPath,                     //"ProductSet('AL_1')"
 				events: {
 
-					change: this._onBindingChange.bind(this),
+					change: this._onBindingChange.bind(this),   //события класса sap.ui.model.ContextBinding
 					dataRequested: function () {
 						oDataModel.metadataLoaded().then(function () {
 							// Busy indicator on view should only be set if metadata is loaded,

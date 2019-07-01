@@ -71,8 +71,8 @@
 				"dataSource": "mainService",
 				"preload": true,
 				"settings": {
-					"defaultBindingMode": "TwoWay"
-				
+					"defaultBindingMode": "TwoWay",
+					"useBatch" : false
 				}
 			}
 		},
@@ -106,12 +106,17 @@
 					]
 				},
 				{
-					"pattern" : "AddProduct",
-					"name" : "add",
-					"target" : "add"
+					"pattern": "AddProduct",
+					"name": "add",
+					"target": "add"
+				},
+				{
+					"pattern": "ProductSet/{objectId}/MoreDetails",
+					"name": "moreDetails",
+					"target": [
+						"moreDetails"
+					]
 				}
-			
-
 			],
 			"targets": {
 				"worklist": {
@@ -131,9 +136,11 @@
 					"viewId": "add",
 					"viewLevel": 3
 				},
-				
-			
-
+				"moreDetails": {
+					"viewName": "MoreDetails",
+					"viewId": "moreDetails",
+					"viewLevel": 4
+				},
 				"objectNotFound": {
 					"viewName": "ObjectNotFound",
 					"viewId": "objectNotFound"
@@ -142,6 +149,7 @@
 					"viewName": "NotFound",
 					"viewId": "notFound"
 				}
+			
 			}
 		}
 	},

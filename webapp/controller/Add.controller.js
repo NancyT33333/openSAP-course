@@ -47,7 +47,7 @@ sap.ui.define([
 				properties: oProperties,
 				success: this._onCreateSuccess.bind(this) // вызывается по submitChanges
 			});     // createEntry returns binding context that we save to discard changes
-			
+		
 			// bind the view to the new entry
 			this.getView().setBindingContext(this._oContext);   //this - инстанс контроллера
 		},

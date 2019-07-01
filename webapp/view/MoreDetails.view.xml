@@ -1,0 +1,23 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="opensap.manageproducts.ManageProducts.controller.MoreDetails" xmlns:smartForm="sap.ui.comp.smartform"
+	xmlns:smartField="sap.ui.comp.smartfield" xmlns:semantic="sap.m.semantic" xmlns:html="http://www.w3.org/1999/xhtml">
+	<semantic:FullscreenPage id="page" title="More details" showNavButton="true" navButtonPress="onNavBack">
+		<semantic:content>
+			<smartForm:SmartForm title="More Details">
+				<smartForm:layout>
+					<smartForm:ColumnLayout columnsM="2" columnsL="3" columnsXL="4"/>
+				</smartForm:layout>
+				<smartForm:Group label="Product">
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{Name}"/>
+					</smartForm:GroupElement>
+						<smartForm:GroupElement>
+						<smartField:SmartField value="{Price}"/>
+					</smartForm:GroupElement>
+					
+					
+				</smartForm:Group>
+			</smartForm:SmartForm>
+		</semantic:content>
+	</semantic:FullscreenPage>
+</mvc:View>
